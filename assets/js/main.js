@@ -282,3 +282,46 @@ $('#add_rent').click(function(){
 	$('#avg_month_rent').val(sum_total);
 
 });
+
+$('#city , #contact_person, #landlord_name, #landlord_email, #landlord_mobile, #tenant_name, #tenant_mobile, #tenant_email, #monthly_rent, #total_duration, #deposit_amount ').on('change', function() {
+  var city = $('#city').val();
+  var contact_person = $('#contact-person').val();
+  var landlord_name = $('#landlord_name').val();
+  var landlord_email = $('#landlord_email').val();
+  var landlord_mobile = $('#landlord_mobile').val();
+  var tenant_name = $('#tenant_name').val();
+  var tenant_mobile = $('#tenant_mobile').val();
+  var tenant_email = $('#tenant_email').val();
+  var monthly_rent = $('#monthly_rent').val();
+  var total_duration = $('#total_duration').val();
+  var deposit_amount = $('#deposit_amount').val();
+
+  $('.city').text(city);
+  $('.contact-person').text(contact_person);
+  $('.landlord_name').text(landlord_name);
+  $('.landlord_email').text(landlord_email);
+  $('.landlord_mobile').text(landlord_mobile);
+  $('.tenant_name').text(tenant_name);
+  $('.tenant_mobile').text(tenant_mobile);
+  $('.tenant_email').text(tenant_email);
+  $('.monthly_rent').text(monthly_rent);
+  $('.total_duration').text(total_duration);
+  $('.deposit_amount').text(deposit_amount);
+
+});
+
+function downloadInnerHtml(filename, elId, mimeType) {
+  var elHtml = document.getElementById(elId).innerHTML;
+  var link = document.createElement('a');
+  mimeType = mimeType || 'text/plain';
+
+  link.setAttribute('download', filename);
+  link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(elHtml));
+  link.click(); 
+}
+
+var fileName =  'tags.html'; // You can use the .txt extension if you want
+
+$('#downloadLink').click(function(){
+  downloadInnerHtml(fileName, 'main','text/html');
+});

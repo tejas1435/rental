@@ -8538,3 +8538,106 @@ del {
 .disabled {
   background-color: #ddd;
 }
+
+.agreement p{
+  font-size: 12px;
+  text-align: justify;
+}
+
+ol.decimal li{
+  list-style: decimal;
+}
+
+.photoSpace {
+  padding: 15px !important;
+  vertical-align: inherit !important;
+  width: 120px;
+  text-align: center;
+}
+
+/* line 1010, */
+.agreement-select {
+  height: 40px;
+  width: 100%;
+  border: #000;
+}
+
+/* line 1013, */
+.agreement-select .nice-select {
+  /* border: #000; */
+  border-radius: 0px;
+  height: 40px;
+  background: #ffffff;
+  /* padding-left: 45px; */
+  padding-right: 40px;
+  width: 100%;
+}
+
+/* line 1021, */
+.agreement-select .nice-select .list {
+  margin-top: 0;
+  /* border: #000; */
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 0 10px 0px;
+}
+
+/* line 1028, */
+.agreement-select .nice-select .list .option {
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  line-height: 28px;
+  min-height: 28px;
+  font-size: 12px;
+  padding-left: 45px;
+}
+
+/* line 1035, */
+.agreement-select .nice-select .list .option.selected {
+  color: #1f2b7b;
+  background: transparent;
+}
+
+/* line 1039, */
+.agreement-select .nice-select .list .option:hover {
+  color: #1f2b7b;
+  background: #eee;
+}
+
+/* line 1046, */
+.agreement-select .current {
+  margin-right: 50px;
+  font-weight: 300;
+}
+
+/* line 1050, */
+.agreement-select .nice-select::after {
+  right: 20px;
+}
+
+/* line 483, */
+.agreement-single-input {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: solid 1px #e8e8e8;
+  /* outline: none; */
+  background: #ffffff;
+  padding: 0 20px;
+}
+
+/* line 491, */
+.agreement-single-input:focus {
+  outline: none;
+}
+
+hr.style-two {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

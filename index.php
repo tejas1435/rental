@@ -92,7 +92,7 @@
                         </div>
                         <p>Onlinerentalagreements.com is a most favored online stage for producing on the web lease enrollment understandings. Our foundation is trusted as generally productive and most effortless board by more than 8500+ fulfilled clients.</p>
                         <p>We are resolved to gives brisk, simple and bother free administrations to all residents and convey the top tier consumer loyalty.</p>
-                        <a href="apply.html" class="btn">Apply for Aggrement</a>
+                        <a href="agreement.php" target="_blank" class="btn">Apply for Aggrement</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
