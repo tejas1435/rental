@@ -17,10 +17,10 @@
 <section class="contact-section">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 wow fadeInLeft" data-wow-delay="0.2s">
                 <h2 class="contact-title">Get in Touch</h2>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 wow fadeInLeft" data-wow-delay="0.2s">
                 <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                     <div class="row">
                         <div class="col-12">
@@ -49,7 +49,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-lg-3 offset-lg-1">
+            <div class="col-lg-3 offset-lg-1 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-home"></i></span>
                     <div class="media-body">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="fa fa-comments"></i></span>
+                    <span class="contact-info__icon"><img src="https://img.icons8.com/office/30/000000/whatsapp.png"/></span>
                     <div class="media-body">
                         <h3>+91 983 339 2177</h3>
                         <p>Text any query anytime!</p>

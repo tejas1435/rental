@@ -16,7 +16,7 @@
 
 <div class="container  pt-150">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 wow zoomIn" data-wow-delay="0.5s">
       <div class="section-tittle text-center mb-20">
         <h2>Calculate Pricing Here</h2>
         <span class="down-arrow">
@@ -32,7 +32,7 @@
   <div class="container">
     <a name="calculator"></a>
     <div class="row">
-      <div class="col-md-6 mt-50 mb-50 pb-50 shadow-lg rounded-lg"
+      <div class="col-md-6 mt-50 mb-50 pb-50 shadow-lg rounded-lg wow fadeInLeft" data-wow-delay="0.5s"
         style="background-color: #eff3f8;border-radius: 15px !important;">
         <h4 class="mt-40 mb-20">AGREEMENT COST</h4>
         <p class="text-danger">PLEASE FILL IN THE FORM BELOW. WE'LL CALCULATE COST OF REGISTRATION HERE.</p>
@@ -48,13 +48,28 @@
               </select>
             </div>
           </div>
-          <div class="mt-20">
-            <label for="property_area"> PROPERTY AREA : </label>
-            <div class="form-select">
-              <select id="propertyArea">
-                <option value="1">Urban</option>
-                <option value="2">Rural</option>
-              </select>
+          <div class="row">
+            <div class="col-md 6">
+              <div class="mt-20">
+                <label for="property_area"> PROPERTY AREA : </label>
+                <div class="form-select">
+                  <select id="propertyArea">
+                    <option value="1">Urban</option>
+                    <option value="2">Rural</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md 6">
+              <div class="mt-20">
+                <label for="property_area"> Type : </label>
+                <div class="form-select">
+                  <select id="rentType">
+                    <option value="fixed">Fixed</option>
+                    <option value="varient">Varient</option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
           <div class="mt-20">
@@ -71,20 +86,20 @@
           </div>
           <div class="mt-20">
             <label for="number_of_months"> License Period in Months : </label><span
-              class="badge badge-dark float-right p-2 mr-10 pointer" data-toggle="modal"
-              data-target="#exampleModalCenter" title="RENT AMOUNT"><i class="fa fa-plus"></i></span><span class="float-right mr-10">( Click Here )</span>
-            <input type="number" disabled id="number_of_months" name="number_of_months" placeholder="Number Of Months" required class="single-input disabled">
+              class="badge badge-dark float-right p-2 mr-10 pointer rentType d-none" data-toggle="modal"
+              data-target="#exampleModalCenter" title="RENT AMOUNT"><i class="fa fa-plus"></i></span><span class="float-right mr-10 rentType d-none">( Click Here )</span>
+            <input type="number" id="number_of_months" name="number_of_months" placeholder="Number Of Months" required class="single-input">
           </div>
           <div class="mt-20">
             <label for="avg_month_rent"> RENT AMOUNT : </label>
-            <input type="number" disabled id="avg_month_rent" name="avg_month_rent" placeholder="RENT AMOUNT" required class="single-input disabled">
+            <input type="number" id="avg_month_rent" name="avg_month_rent" placeholder="RENT AMOUNT" required class="single-input">
           </div>
           <div class="mt-20">
             <button type="button" onclick="calculate();" class="btn btn-default btn-sm float-none">Calculate</button>
           </div>
         </form>
       </div>
-      <div class="col-md-6 mt-50 mb-50 pb-50 shadow-lg rounded-lg"
+      <div class="col-md-6 mt-50 mb-50 pb-50 shadow-lg rounded-lg wow fadeInRight" data-wow-delay="0.5s"
         style="background-color: #eff3f8;border-radius: 15px !important;">
         <h4 class="mt-40 mb-20">HERE IS AN ESTIMATE OF THE CHARGES:</h4>
         <p>PLEASE CHECK BELOW CHARGES</p>

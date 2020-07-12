@@ -6,13 +6,13 @@
             <!-- Single Slider -->
             <div class="single-slider">
                 <div class="slider-cap-wrapper">
-                    <div class="hero__caption">
-                        <p data-animation="fadeInLeft" data-delay=".2s">Government authorized service provider</p>
-                        <h1 data-animation="fadeInLeft" data-delay=".5s">LEAVE AND LICENSE AGREEMENT.</h1>
+                    <div class="hero__caption wow fadeInLeft text-left" data-wow-delay="0.2s">
+                        <p>Government authorized service provider</p>
+                        <h1>LEAVE AND LICENSE AGREEMENT.</h1>
                         <!-- Hero Btn -->
-                        <a href="contact.php" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Contact Us</a>
+                        <a href="contact.php" class="btn hero-btn">Contact Us</a>
                     </div>
-                    <div class="hero__img">
+                    <div class="hero__img wow fadeInRight" data-wow-delay="0.2s">
                         <img src="assets/img/hero/hero_img.jpg" alt="">
                     </div>
                 </div>
@@ -20,14 +20,14 @@
             <!-- Single Slider -->
             <div class="single-slider">
                 <div class="slider-cap-wrapper">
-                    <div class="hero__caption">
-                        <p data-animation="fadeInLeft" data-delay=".2s">Government authorized service provider</p>
-                        <h1 style="font-size: 50px;" data-animation="fadeInLeft" data-delay=".5s">Complete Rental Agreement
+                    <div class="hero__caption wow slideInLeft" data-wow-delay="0.2s">
+                        <p>Government authorized service provider</p>
+                        <h1 style="font-size: 50px;">Complete Rental Agreement
                             Solution at Citizen Doorstep.</h1>
                         <!-- Hero Btn -->
-                        <a href="pricing.php" class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Calculator</a>
+                        <a href="pricing.php" class="btn hero-btn">Calculator</a>
                     </div>
-                    <div class="hero__img">
+                    <div class="hero__img wow slideInRight" data-wow-delay="0.2s">
                         <img src="assets/img/hero/hero_img2.jpg" alt="">
                     </div>
                 </div>
@@ -35,7 +35,7 @@
         </div>
         <!-- slider-footer Start -->
         <div class="slider-footer section-bg d-none d-sm-block">
-            <div class="footer-wrapper">
+            <div class="footer-wrapper wow fadeInLeft" data-wow-delay="0.2s">
                 <!-- single -->
                 <div class="single-caption">
                     <div class="single-img">
@@ -83,7 +83,7 @@
     <div class="about-low-area section-padding2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="about-caption mb-50">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-35">
@@ -95,7 +95,7 @@
                         <a href="agreement.php" target="_blank" class="btn">Apply for Aggrement</a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
                     <!-- about-img -->
                     <div class="about-img ">
                         <!-- <div class="about-font-img d-none d-lg-block">
@@ -112,7 +112,7 @@
     <!-- About Law End-->
     <!-- Application Area Start -->
     <div class="application-area pt-70 pb-60" data-background="assets/img/gallery/section_bg03.jpg">
-        <div class="container">
+        <div class="container wow zoomIn" data-wow-delay="0.2s">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <!-- Section Tittle -->
@@ -164,7 +164,7 @@
     <!-- Service Section Start -->
     <div class="services-area section-padding30">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s">
                 <div class="col-lg-6 col-md-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-80">
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-work"></span>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-loan"></span>
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-loan-1"></span>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-like"></span>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-work"></span>
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-loan"></span>
@@ -240,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-loan-1"></span>
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="single-cat single-cat2 text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-like"></span>
@@ -271,7 +271,7 @@
         <div class="container ">
             <div class="row d-flex justify-content-center">
                 <div class="col-xl-11 col-lg-11 col-md-9">
-                    <div class="h1-testimonial-active">
+                    <div class="h1-testimonial-active wow flipInX" data-wow-delay="0.2s">
                         <div class="single-testimonial text-center">
                             <div class="testimonial-caption ">
                                 <div class="testimonial-top-cap">
@@ -365,7 +365,7 @@
     <!-- Services Area Start -->
     <div class="services-area pt-50 pb-50" data-background="assets/img/gallery/section_bg02.jpg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center wow zoomIn" data-wow-delay="0.2s">
                 <div class="col-lg-6 col-md-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-80">
@@ -374,8 +374,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row" data-wow-delay="0.2s">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="city-bg-image shadow mumbai text-center mb-50 city-bg-image shadow">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-work"></span>
@@ -386,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.4s">
                     <div class="city-bg-image shadow navi-mumbai text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan"></span>
@@ -397,7 +397,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.6s">
                     <div class="city-bg-image shadow pune text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan-1"></span>
@@ -408,7 +408,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.8s">
                     <div class="city-bg-image shadow thane text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-like"></span>
@@ -420,8 +420,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row wow fadeInTopRight" data-wow-delay="0.2s">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="city-bg-image shadow mumbai text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-work"></span>
@@ -432,7 +432,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.4s">
                     <div class="city-bg-image shadow navi-mumbai text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan"></span>
@@ -443,7 +443,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.6s">
                     <div class="city-bg-image shadow pune text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan-1"></span>
@@ -454,7 +454,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.8s">
                     <div class="city-bg-image shadow thane text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-like"></span>

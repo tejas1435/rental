@@ -16,7 +16,7 @@
 <!-- Services Area Start -->
 <div class="services-area section-padding30">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center wow zoomIn" data-wow-delay="0.2s">
             <div class="col-lg-6 col-md-10">
                 <!-- Section Tittle -->
                 <div class="section-tittle text-center mb-80">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-work"></span>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-loan"></span>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-loan-1"></span>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-like"></span>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-work"></span>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-loan"></span>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-loan-1"></span>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="single-cat single-cat2 text-center mb-50">
                     <div class="cat-icon">
                         <span class="flaticon-like"></span>

@@ -17,7 +17,7 @@
 <div class="about-low-area section-padding2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="about-caption mb-50">
                     <!-- Section Tittle -->
                     <div class="section-tittle mb-35">
@@ -29,7 +29,7 @@
                     <a href="apply.html" class="btn">Apply for Aggrement</a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.2s">
                 <!-- about-img -->
                 <div class="about-img ">
                     <!-- <div class="about-font-img d-none d-lg-block">
@@ -46,7 +46,7 @@
 <!-- About Law End-->
 <!-- Application Area Start -->
 <div class="application-area pt-70 pb-60" data-background="assets/img/gallery/section_bg03.jpg">
-    <div class="container">
+    <div class="container wow zoomIn" data-wow-delay="0.2s">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <!-- Section Tittle -->
@@ -99,7 +99,7 @@
 <div class="support-company-area section-padding fix">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="support-location-img">
                     <img src="assets/img/gallery/single2.jpg" alt="">
                     <div class="support-img-cap">
@@ -110,29 +110,29 @@
             <div class="col-xl-6 col-lg-6">
                 <div class="right-caption">
                     <!-- Section Tittle -->
-                    <div class="section-tittle">
+                    <div class="section-tittle wow fadeInUp" data-wow-delay="0.2s">
                         <h2>Why Choose Use</h2>
                     </div>
                     <div class="support-caption">
-                        <p>Simplifying the renting process so just follow our process and get your agreement in your email box.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Simplifying the renting process so just follow our process and get your agreement in your email box.</p>
                         <div class="select-suport-items">
-                            <label class="single-items">Doorstep service – All india executive network.
+                            <label class="single-items wow zoomIn" data-wow-delay="0.2s">Doorstep service – All india executive network.
                                 <input type="checkbox" disabled checked="checked active">
                                 <span class="checkmark"></span>
                             </label>
-                            <label class="single-items">Drafting accuracy – Highly qualified team for drafting.
+                            <label class="single-items wow zoomIn" data-wow-delay="0.4s">Drafting accuracy – Highly qualified team for drafting.
                                 <input type="checkbox" disabled checked="checked active">
                                 <span class="checkmark"></span>
                             </label>
-                            <label class="single-items">Biometric verification.
+                            <label class="single-items wow zoomIn" data-wow-delay="0.6s">Biometric verification.
                                 <input type="checkbox" disabled checked="checked active">
                                 <span class="checkmark"></span>
                             </label>
-                            <label class="single-items">Easy booking.
+                            <label class="single-items wow zoomIn" data-wow-delay="0.8s">Easy booking.
                                 <input type="checkbox" disabled checked="checked active">
                                 <span class="checkmark"></span>
                             </label>
-                            <label class="single-items">Hassle free drafting.
+                            <label class="single-items wow zoomIn" data-wow-delay="0.9s">Hassle free drafting.
                                 <input type="checkbox" disabled checked="checked active">
                                 <span class="checkmark"></span>
                             </label>

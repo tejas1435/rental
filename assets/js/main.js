@@ -283,6 +283,33 @@ $('#add_rent').click(function(){
 
 });
 
+$('#rentType').on('change', function() {
+  var rentType = $('#rentType').val();
+  if(rentType == "fixed") {
+    $('.rentType').addClass('d-none');
+    // remove disabled class
+    $('#number_of_months').removeClass('disabled');
+    $('#avg_month_rent').removeClass('disabled');
+    // remove disabled attr
+    $('#number_of_months').attr('disabled',false);
+    $('#avg_month_rent').attr('disabled',false);
+    // blank value
+    $('#number_of_months').attr('value','');
+    $('#avg_month_rent').attr('value','');
+  } else {
+    $('.rentType').removeClass('d-none');
+    // add disabled class
+    $('#number_of_months').addClass('disabled');
+    $('#avg_month_rent').addClass('disabled');
+    // add disabled attr
+    $('#number_of_months').attr('disabled',true);
+    $('#avg_month_rent').attr('disabled',true);
+    // blank value
+    $('#number_of_months').attr('value','');
+    $('#avg_month_rent').attr('value','');
+  }
+});
+
 $('#city , #contact_person, #landlord_name, #landlord_email, #landlord_mobile, #tenant_name, #tenant_mobile, #tenant_email, #monthly_rent, #total_duration, #deposit_amount ').on('change', function() {
   var city = $('#city').val();
   var contact_person = $('#contact-person').val();
