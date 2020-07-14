@@ -31,7 +31,11 @@
     <div id="back-top" >
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
-
+    <!-- Floting Whatsapp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=9833392177&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="whatsapp-float" target="_blank">
+            <i class="fa fa-whatsapp whatsapp-my-float"></i>
+        </a>
 
     <!-- JS here -->
 		<!-- All JS Custom Plugins Link Here here -->

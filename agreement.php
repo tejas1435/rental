@@ -234,13 +234,13 @@
             </tr>
             <tr>
               <td>12</td>
-              <td>Air Cooler</td>
-              <td><strong data-selector="ame_air_cooler">0</strong></td>
+              <td>Kitchen</td>
+              <td><strong data-selector="ame_kitchen">0</strong></td>
             </tr>
             <tr>
               <td>13</td>
-              <td>Water Cooler</td>
-              <td><strong data-selector="ame_water_cooler">0</strong></td>
+              <td>Chimney</td>
+              <td><strong data-selector="ame_chimney">0</strong></td>
             </tr>
             <tr>
               <td>14</td>
@@ -251,6 +251,36 @@
               <td>15</td>
               <td>Washing Machine</td>
               <td><strong data-selector="ame_washing_machine">0</strong></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>Video Door Bell</td>
+              <td><strong data-selector="ame_video_door_bell">0</strong></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>Almirahs</td>
+              <td><strong data-selector="ame_almirahs">0</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Fully Furnished Kitchen</td>
+              <td><strong data-selector="ame_fully_furnished_kitchen">0</strong></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>Water Purifier</td>
+              <td><strong data-selector="ame_water_purifier">0</strong></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>Gas Cylinder</td>
+              <td><strong data-selector="ame_gas_cylinder">0</strong></td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>Dinning Table</td>
+              <td><strong data-selector="ame_dinning_table">0</strong></td>
             </tr>
           </tbody>
         </table>

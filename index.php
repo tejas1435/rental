@@ -366,11 +366,11 @@
     <div class="services-area pt-50 pb-50" data-background="assets/img/gallery/section_bg02.jpg">
         <div class="container">
             <div class="row justify-content-center wow zoomIn" data-wow-delay="0.2s">
-                <div class="col-lg-6 col-md-10">
+                <div class="col-lg-8 col-md-12">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-80">
                         <span>Cities We Service</span>
-                        <h2>Mumbai, Navi Mumbai, Pune, Thane ...</h2>
+                        <h2>Mumbai, Mumbai Suburban, Palghar, Thane, Navi Mumbai ...</h2>
                     </div>
                 </div>
             </div>
@@ -422,39 +422,39 @@
             </div>
             <div class="row wow fadeInTopRight" data-wow-delay="0.2s">
                 <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="city-bg-image shadow mumbai text-center mb-50">
+                    <div class="city-bg-image shadow mumbai-suburban text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-work"></span>
                         </div> -->
                         <div class="cat-cap">
-                            <h5 class="text-white">Mumbai</h5>
+                            <h5 class="text-white">Mumbai Suburban</h5>
                             <!-- <p>Shivaji Park, Next To Hotelchandragupta, Dadasaheb Rege Marg, Opp Shivsena Bhavan, Dadar (west)</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.4s">
-                    <div class="city-bg-image shadow navi-mumbai text-center mb-50">
+                    <div class="city-bg-image shadow palghar text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan"></span>
                         </div> -->
                         <div class="cat-cap">
-                            <h5 class="text-white">Navi Mumbai</h5>
+                            <h5 class="text-white">Palghar</h5>
                             <!-- <p>Shivaji Park, Next To Hotelchandragupta, Dadasaheb Rege Marg, Opp Shivsena Bhavan, Dadar (west)</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.6s">
-                    <div class="city-bg-image shadow pune text-center mb-50">
+                    <div class="city-bg-image shadow nashik text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-loan-1"></span>
                         </div> -->
                         <div class="cat-cap">
-                            <h5 class="text-white">Pune</h5>
+                            <h5 class="text-white">Nashik</h5>
                             <!-- <p>Shivaji Park, Next To Hotelchandragupta, Dadasaheb Rege Marg, Opp Shivsena Bhavan, Dadar (west)</p> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.8s">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.8s" style="display: none;">
                     <div class="city-bg-image shadow thane text-center mb-50">
                         <!-- <div class="cat-icon">
                             <span class="flaticon-like"></span>
